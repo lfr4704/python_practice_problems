@@ -1,0 +1,127 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-65.948423,7.996932]
+            },
+            "properties": {
+                "text": "This is sample a tweet",
+                "created_at": "Sat Mar 21 12:30:00 +0000 2015"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.645966,10.653860]
+            },
+            "properties": {
+                "text": "This is sample a tweet",
+                "created_at": "Sat Mar 21 12:30:00 +0000 2015"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-61.645966,8.653860]
+            },
+            "properties": {
+                "text": "This is sample a tweet",
+                "created_at": "Sat Mar 21 12:30:00 +0000 2015"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-69.681030,11.394604]
+            },
+            "properties": {
+                "text": "This is sample a tweet",
+                "created_at": "Sat Mar 21 12:30:00 +0000 2015"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-67.493370,10.031350]
+            },
+            "properties": {
+                "text": "This is sample a tweet",
+                "created_at": "Sat Mar 21 12:30:00 +0000 2015"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.645966,10.653860]
+            },
+            "properties": {
+                "text": "This is sample a tweet",
+                "created_at": "Sat Mar 21 12:30:00 +0000 2015"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.645966,7.653860]
+            },
+            "properties": {
+                "text": "This is sample a tweet",
+                "created_at": "Sat Mar 21 12:30:00 +0000 2015"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-69.645966,9.653860]
+            },
+            "properties": {
+                "text": "This is sample a tweet",
+                "created_at": "Sat Mar 21 12:30:00 +0000 2015"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-63.255672,10.642235]
+            },
+            "properties": {
+                "text": "This is sample a tweet",
+                "created_at": "Sat Mar 21 12:30:00 +0000 2015"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-67.049438,10.589444]
+            },
+            "properties": {
+                "text": "This is sample a tweet",
+                "created_at": "Sat Mar 21 12:30:00 +0000 2015"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-69.681030,11.394604]
+            },
+            "properties": {
+                "text": "This is sample a tweet",
+                "created_at": "Sat Mar 21 12:30:00 +0000 2015"
+            }
+        }
+
+    ]
+}
