@@ -1,4 +1,5 @@
 import pdb;
+import math:
 
 # find the median of two sorted arraysself.
 # eg
@@ -69,3 +70,50 @@ def findMedianSortedArrays(nums1, nums2):
 # print getKth([1,2,3],0,[4,5,6],0,3)
 print findMedianSortedArrays([1,2,3], [4,5,6])
 pbd.set_trace()
+
+
+#my attempt to solve the problem above
+def getMedianOfSortedArray(input_1, input_2):
+    if len(input_1) > len(input_2):
+        return getMedianOfSortedArray(input_2,input_1)
+
+    start = 0
+    high= min(len(input_1), len(input_2))
+
+    while start <= end:
+        partitionX = (start + end)/2
+        partitionY = (len(input_1) + len(input_2) + 1)/2
+
+        # if partitionX is 0 it means nothing is there on the left side, use -INF for maxLeftX
+        #if partitionX is lenght of input array then there is nothing on the right side, use +Inf for minRightX
+        if partitionX == 0:
+            maxLeftX = -math.inf
+        else:
+            maxLeftX = input_1[partitionX - 1]
+
+        if partitionX == len(input_1):
+            minRightX = math.inf
+        else:
+            minRightX = input_1[partitionX]
+
+        if partitionY == 0:
+            maxLeftY = -math.inf
+        else:
+            maxLeftY = input_2[partitionY - 1]
+
+        if partitionY == len(input_2):
+            minRightY = math.inf
+        else:
+            minRightY = input_2[partitionY]
+
+        if maxLeftX <= minRightY and maxLeftY <= minRightX:
+            if (len(input_1) + len(input_2)) % 2 == 0:
+                return (max(maxLeftX,maxLeftY) + min(minRightX, minRightY)) / 2.0
+
+            else:
+                return max(maxLeftX, maxLeftY)
+        elif maxLeftX > minRightY:
+            high = partitionX - 1
+
+        else:
+            start = partitionX + 1
