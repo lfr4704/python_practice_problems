@@ -73,7 +73,8 @@ import math;
 # pbd.set_trace()
 
 
-#my attempt to solve the problem above
+#my attempt to solve the problem above in a O(log(n+m))
+#watch this video for explanation https://www.youtube.com/watch?v=LPFhl65R7ww
 def getMedianOfSortedArray(input_1, input_2):
     if len(input_1) > len(input_2):
         return getMedianOfSortedArray(input_2,input_1)
@@ -128,3 +129,4 @@ def getMedianOfSortedArray(input_1, input_2):
 
 print getMedianOfSortedArray([1,3,8,9,15],[7,11,18,19,21,25])
 print getMedianOfSortedArray([23,26,31,35],[3,5,7,9,11,16])
+print getMedianOfSortedArray([23,26,31,35,45,56,78],[3,5,7,9,11,16])
