@@ -6,3 +6,11 @@
 
 ### Markdown cheatsheet
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+### run through problem in a step by step process
+`import pdb`
+drop the debugger in the code `pdb.set_trace()`
+in cmd run `python -m pdb myscript.py`
+
+### References
+https://docs.python.org/3/library/pdb.html
