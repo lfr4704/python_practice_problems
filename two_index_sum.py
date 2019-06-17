@@ -8,7 +8,7 @@ class Solution:
         :rtype: List[int]
         """
         """
-        h is a hast table, a hash table is the best way to maintain a mapping
+        h is a hash table, a hash table is the best way to maintain a mapping
         of each element in an array to its index
         """
         h = {}
